@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(206, 255, 174);
+    margin: 2%;
+    margin: 2%;
+    }
+
+    table{
+       background-color: #7bda56;
+       border-style: dotted;
+       border-color: aliceblue;
+       border-bottom-color: #7bda56;
+      
+   }
+
+   h1{
+       background-color: #7bda56; 
+       border: 2px solid #000000;
+       text-align: center;
+       text-shadow: 0 0 5px #0a4908, 0 0 5px #ec9292;
+    }
+
+    h2{
+    
+        text-shadow: 0 0 5px #ffffff, 0 0 5px #fafafa;
+     }
+ 
+     .texto{
+         text-align: center;
+         text-shadow: 0 0 5px #ffffff, 0 0 5px #fafafa;
+    }
+
+    h3{
+       color: rgb(27, 158, 71);
+       text-align: center;
+       text-shadow: 0 0 5px #ffffff, 0 0 5px #fafafa;
+    }
+
+   form{
+       
+       background-color: #7bda56;
+   }
+
+   p{ 
+       text-indent: 50px;
+   
+   }
+
+   video{
+       text-align: center;
+    }
+   a:hover{
+       color: rgb(46, 139, 27);
+
+    }
+    .fotitos {
+        text-align: center;
+        padding: 10px;
+    }
+    /* estilo de barra superior */
+    .topnav {
+        padding:  auto;
+        overflow: hidden;
+        background-color: #7bda56;
+        border: 2px solid rgb(0, 0, 0);
+        }
+      
+      /* estilo de los enlaces topvaz=botones */
+        .topnav a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 11px 123.7px;
+        text-decoration: none;
+        border: 1px solid rgb(0, 0, 0);
+         }
+      
+      /* cambiar de color al pasar el raton */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }

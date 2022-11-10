@@ -1,0 +1,49 @@
+body{
+     background-color: lightblue;
+     margin: 2%;
+     margin: 2%;
+     }
+
+     table{
+        background-color: #8cd8f7;
+        border-style: dotted;
+        border-color: aliceblue;
+        border-bottom-color: orange;
+       
+    }
+
+    h1{
+        background-color: rgb(153, 204, 238); 
+        border: 2px solid rgb(32, 94, 122);
+        text-align: center;
+        text-shadow: 0 0 5px #739af7, 0 0 5px #92adec;
+     }
+
+     h2{
+        text-align: center;
+        text-shadow: 0 0 5px #ffffff, 0 0 5px #fafafa;
+     }
+
+     h3{
+        color: blue;
+        text-align: center;
+        text-shadow: 0 0 5px #ffffff, 0 0 5px #fafafa;
+     }
+
+    form{
+        
+        background-color: rgb(153, 204, 238); 
+    }
+
+    p{ 
+        text-indent: 50px;
+    
+    }
+
+    video{
+        text-align: center;
+     }
+    a:hover{
+        color: rgb(27, 146, 106);
+
+     }

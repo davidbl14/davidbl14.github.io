@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formulario.css">
+  <title>Viajes Davidbl14</title>
+</head>
+
+<body>
+  <svg height="110" width="450">
+    <a href="index.html">
+      <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="50%" y2="0%">
+          <stop offset="0%" style="stop-color:rgb(179, 167, 0);stop-opacity:1" />
+          <stop offset="100%" style="stop-color:rgb(175, 115, 3);stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      <ellipse cx="100" cy="70" rx="80" ry="40" fill="url(#grad1)" />
+      <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">DBL</text>
+      <rect x="50" y="20" rx="20" ry="20" width="100" height="10"
+        style="fill:rgb(192, 126, 3);stroke:black;stroke-width:5;opacity:1" />
+  </svg>
+  </a>
+  <div class="header">
+    <h1>Elije el lugar de tus vacaciones</h1>
+  </div>
+  <div class="barra">
+  <div class="topnav">
+    <a href="antartida.html">Antartida</a>
+    <a href="butan.html">Bután</a>
+    <a href="finlandia.html">Finlandia</a>
+    <a href="lua.html">La Luna</a>
+    <a href="marte.html">Marte</a>
+    <a href="formulario.html">Formulario</a>
+  </div>
+</div>
+  <div class="row">
+    <div class="column" style="background-color:rgb(233, 210, 168);"><b>Información de la empresa:</b>
+    <p>“Cuando lo mejor es posible, lo bueno es insuficiente.” Vamos más allá de hacer una simple gestión, nuestros clientes esperan de nosotros lo especial, y respondemos con un servicio de calidad, apostando por unos empleados competentes, conscientes de ésta.<br> Sabemos lo que hacemos bien y cómo mejorarlo. Este continuo perfeccionamiento, conseguido por la experiencia, nos permite anticiparnos a las necesidades de nuestros clientes y dar soluciones.<br> En Travel Brokers ser mejores no representa la culminación de nuestra trayectoria sino el punto de partida.</p>
+    
+    </div>
+
+    <div class="column"style="background-color:rgb(233, 210, 168);"><b>Video presentación:</b>
+      <video width="640" height="480" controls>
+        <source src="videos/video1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div>
+      <form>
+        <form action="/action_page.php">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre...">
+
+          <label for="lname">Apellido</label>
+          <input type="text" id="apellido" name="apellido" placeholder="Escribe aqui te apellido...">
+          <hr>
+          <label for="lugar">Lugar</label>
+          <select id="lugar" name="lugar">
+            <option value="Antartida">Antartida</option>
+            <option value="Marte">Marte</option>
+            <option value="La Lua">La Luna</option>
+            <option value="Bútan">Bútan</option>
+            <option value="Finlandia">Finlandia</option>
+          </select>
+          <h4>Introduce la fecha del viaje</h4>
+          <label for="datemin">Desde:
+            <input type="date" id="datemin" name="datemin" min="2022-10-04"><br><br>
+            <label for="datemax">Hasta:</label>
+            <input type="date" id="datemax" name="datemax" max="2025-10-04"><br><br>
+            <input type="submit" value="Buscar">
+        </form>
+    </div>
+</div>
+    
+    <div class="footer">
+      <h3>Te quiero Bea</h3>
+    </div>
+
+
+</body>

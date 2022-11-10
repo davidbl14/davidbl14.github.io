@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(233, 210, 168);
+    margin: 20px;
+    margin: 20px;
+    }
+
+/* estilo del encabezado */
+    .header {
+  background-color: rgb(233, 210, 168);
+  padding: 3px;
+  text-align: center;
+    
+    }
+    /* estilo de barra superior */
+    .topnav {
+    padding:  auto;
+    overflow: hidden;
+    background-color: rgb(172, 104, 41);
+    border: 2px solid rgb(0, 0, 0);
+    }
+  
+  /* estilo de los enlaces topvaz=botones */
+    .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 11px 127.7px;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+     }
+  
+  /* cambiar de color al pasar el raton */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+    
+  .column {
+    padding-top: 100px;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  /* Es para crear columnas laterales */
+.column.side {
+    width: 50%;
+  }
+
+  /* parte de columnas flotantes */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* estilo de pie de pagina */
+  footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+    table{
+        
+        padding-top: 10px;
+       background-color: #f7db8c;
+       border-style: dotted;
+       border-color: aliceblue;
+       border-bottom-color: orange;
+      
+   }
+
+   h1{
+       background-color: rgb(241, 222, 192); 
+       border: 2px solid rgb(0, 0, 0);
+       text-align: center;
+       text-shadow: 0 0 5px #ffc55a, 0 0 5px #92adec;
+    }
+
+    h2{
+        
+       text-align: center;
+       text-shadow: 0 0 5px #ffffff, 0 0 5px #fafafa;
+    }
+
+    h3{
+        padding: 35px;
+       color: rgb(146, 46, 0);
+       text-align: center;
+       text-shadow: 0 0 5px #ffffff, 0 0 5px #fafafa;
+    }
+
+   form{
+       
+       background-color: rgb(236, 221, 179); 
+   }
+
+   p{ 
+       text-indent: 50px;
+   
+   }
+
+   a:hover{
+       color: rgb(27, 146, 106);
+
+    }
+    div{
+        background-color:rgb(241, 222, 192);  ;
+    }
+   
